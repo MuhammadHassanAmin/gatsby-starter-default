@@ -10,8 +10,7 @@ const IndexPage = () => (
     <Seo title="Home" />
     <h1>Hi people this is my first build on Gatsby</h1>
     <h3>It seems super fast!</h3>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
+    <p>nasCon'19 web development competition</p>
     <StaticImage
       src="../images/code-competition.jpg"
       width={300}
@@ -20,8 +19,9 @@ const IndexPage = () => (
       alt="A Gatsby astronaut"
       style={{ marginBottom: `1.45rem` }}
     />
+    <p>winners</p>
     <StaticImage
-      src="../images/winner.png"
+      src="../images/winner.jpg"
       width={300}
       quality={95}
       formats={["auto", "webp", "avif"]}
